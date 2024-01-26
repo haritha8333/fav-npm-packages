@@ -1,0 +1,53 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; 
+  background-color: #f8f9fa; 
+  color: #495057; 
+  
+}
+
+code {
+  font-family: 'Fira Code', monospace;
+}
+
+/* Customize Tailwind CSS classes */
+.bg-teal-500 {
+  background-color: #557068; 
+}
+
+.text-gray-800 {
+  color: #2f3542; 
+}
+
+/* Add custom styles */
+.custom-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /*  */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  border-radius: 8px; 
+}
+
+/* Button styles */
+.btn {
+  padding: 8px 16px;
+  border: 2px solid #ced4da; 
+  background-color: #f8f9fa; 
+  color: #495057; 
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6a7f94; 
+}
+
+
+
